@@ -6,9 +6,9 @@
   prerequisites: |
     Открыта страница сайта https://codebattle.hexlet.io/
   test-data: |
-    Nickname = Lolo 
-    Email = user@mail.ru 
-    Password = u1234
+    - Nickname = Lolo 
+    - Email = user@mail.ru 
+    - Password = u1234
   steps:
     - клик по кнопке "Регистрация"
     - заполнить поле "Ник"
@@ -26,7 +26,7 @@
   prerequisites:
     Открыта страница сайта https://codebattle.hexlet.io/
   test-data: |
-    Пользователь имеет аккаунт на Github
+    - Пользователь имеет аккаунт на Github
   steps:
     - клик по кнопке "Регистрация"
     - клик по кнопке "Войдите в систему с помощью Github"
@@ -41,7 +41,7 @@
   prerequisites:
     Открыта страница сайта https://codebattle.hexlet.io/
   test-data: |
-    Пользователь имеет аккаунт на Github
+    - Пользователь имеет аккаунт на Github
   steps:
     - клик по кнопке "Вход"
     - клик по кнопке "Войдите в систему с помощью Discord"
@@ -58,8 +58,8 @@
     Пользователь имеет аккаунт на Github
     Пользователь зарегистрирован    
   test-data: |
-    Email = user@mail.ru 
-    Password = u1234
+    - Email = user@mail.ru 
+    - Password = u1234
   steps:
     - клик по кнопке "Вход"
     - заполнить валидными данными поле "Электронная почта"
@@ -75,9 +75,9 @@
   prerequisites:
     Открыта страница сайта https://codebattle.hexlet.io/
   test-data: |
-    Nickname = Lolo 
-    Email = user@mail.ru 
-    Password = u1234
+    - Nickname = Lolo 
+    - Email = user@mail.ru 
+    - Password = u1234
   steps:
     - клик по кнопке "Регистрация"
     - заполнить поле "Ник"
@@ -95,8 +95,8 @@
   prerequisites:
     Открыта страница сайта https://codebattle.hexlet.io/
   test-data: |
-    Email = Хохо@хохо.ru 
-    Password = ???987!!!
+    - Email = Хохо@хохо.ru 
+    - Password = ???987!!!
   steps:
     - клик по кнопке "Вход"
     - заполнить невалидными данными поле "Электронная почта"
@@ -113,8 +113,8 @@
     Открыта страница сайта https://codebattle.hexlet.io/
     Пользователь авторизован
   test-data: |
-    Your name = Lolo 
-    New name = Nunu
+    - Your name = Lolo 
+    - New name = Nunu
   steps:
     - клик по кнопке со своим именем  в правом верхнем углу
     - клик по кнопке "Настройки" из появившегося списка
@@ -132,9 +132,9 @@
     Открыта страница сайта https://codebattle.hexlet.io/
     Пользователь зарегистрирован
   test-data: |
-    Nickname = Nunu 
-    Email = user@mail.ru 
-    New Password = un4321
+    - Nickname = Nunu 
+    - Email = user@mail.ru 
+    - New Password = un4321
   steps:
     - клик по кнопке "Вход"
     - в поле "Email" ввести корректный адрес электронной почты
